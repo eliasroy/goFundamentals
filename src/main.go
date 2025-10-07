@@ -22,7 +22,6 @@ func main() {
 	var b float64
 	var c string
 	var d bool
-	c = "hello everyone"
 	fmt.Println("Zero value of int:", a)
 	fmt.Println("Zero value of float64:", b)
 	fmt.Println("Zero value of string:", c)
