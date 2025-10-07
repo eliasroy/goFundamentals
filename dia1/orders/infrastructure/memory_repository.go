@@ -15,4 +15,5 @@ func NewInMemoryOrderRepository() *InMemoryOrderRepository {
 func (r *InMemoryOrderRepository) Save(order *domain.Order) error {
 	r.data[order.ID] = order
 	return nil
+
 }
